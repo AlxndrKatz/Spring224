@@ -1,4 +1,4 @@
-package su.soviet.loanMVC.clients;
+package su.soviet.loanMVC.client;
 
 public interface IncomeClient {
     int getIncome(Long id);

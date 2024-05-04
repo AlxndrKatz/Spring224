@@ -1,4 +1,4 @@
-package su.soviet.loanMVC.services;
+package su.soviet.loanMVC.service;
 
 public interface LoanService {
     Integer assessLoan(Long id);

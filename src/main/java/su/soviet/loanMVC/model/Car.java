@@ -1,11 +1,13 @@
-package su.soviet.loanMVC.dao;
+package su.soviet.loanMVC.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 @Entity
 @Table(name = "Car")
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 public class Car {
 
     @Id
@@ -20,4 +22,10 @@ public class Car {
 
     @OneToOne(mappedBy = "car")
     private User user;
+
+    public Car(String manufacturer, String model, int price) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.price = price;
+    }
 }

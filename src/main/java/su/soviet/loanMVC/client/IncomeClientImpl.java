@@ -1,10 +1,10 @@
-package su.soviet.loanMVC.clients;
+package su.soviet.loanMVC.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import su.soviet.loanMVC.configs.WebConfig;
+import su.soviet.loanMVC.config.WebConfig;
 import su.soviet.loanMVC.dto.UserDTO;
 
 import java.util.Objects;

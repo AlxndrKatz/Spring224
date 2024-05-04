@@ -1,14 +1,14 @@
-package su.soviet.loanMVC.services;
+package su.soviet.loanMVC.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import su.soviet.loanMVC.configs.CarConfig;
-import su.soviet.loanMVC.dao.Car;
-import su.soviet.loanMVC.exceptions.ApplicationException;
-import su.soviet.loanMVC.repositories.CarRepository;
+import su.soviet.loanMVC.config.CarConfig;
+import su.soviet.loanMVC.model.Car;
+import su.soviet.loanMVC.exception.ApplicationException;
+import su.soviet.loanMVC.dao.CarRepository;
 
 import java.util.Arrays;
 import java.util.List;

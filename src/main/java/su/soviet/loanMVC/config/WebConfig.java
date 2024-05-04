@@ -1,4 +1,4 @@
-package su.soviet.loanMVC.configs;
+package su.soviet.loanMVC.config;
 
 import lombok.Getter;
 import lombok.Setter;
